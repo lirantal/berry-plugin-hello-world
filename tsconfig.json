@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "target": "es2017",
+    "outDir": "dist"
+  },
+  "include": ["sources/**/*.ts"],
+  "exclude": ["node_modules/**", "bundles/**", "dist/**"]
+}

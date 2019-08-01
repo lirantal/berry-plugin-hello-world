@@ -1,0 +1,22 @@
+{
+  "name": "berry-plugin-hello-world",
+  "version": "1.0.0",
+  "main": "sources/index.ts",
+  "author": {
+    "name": "Liran Tal",
+    "email": "liran.tal@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build:plugin": "@berry-build-plugin",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@berry/builder": "^0.1.0",
+    "@berry/core": "^0.1.0",
+    "ts-loader": "^6.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}

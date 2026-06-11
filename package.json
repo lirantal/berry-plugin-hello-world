@@ -1,8 +1,4 @@
 {
-  "publishConfig": {
-    "provenance": true,
-    "access": "public"
-  },
   "name": "berry-plugin-hello-world",
   "version": "1.0.0",
   "main": "sources/index.ts",
@@ -22,5 +18,9 @@
   },
   "devDependencies": {
     "typescript": "^3.5.3"
+  },
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
   }
 }
